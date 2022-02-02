@@ -1,0 +1,37 @@
+{
+  "name": "minecraft-scraper",
+  "version": "1.0.0",
+  "description": "An application that looks up the amount of players on a minecraft server and plots it onto a graph",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akkjon/minecraft-scraper.git"
+  },
+  "keywords": [
+    "nodejs",
+    "minecraft",
+    "online",
+    "graph",
+    "players"
+  ],
+  "author": "Akkjon",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Akkjon/minecraft-scraper/issues"
+  },
+  "homepage": "https://github.com/Akkjon/minecraft-scraper#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

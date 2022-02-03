@@ -17,8 +17,17 @@ When hovered over a specific point, the playerlist at that specific time is show
 
 For installation [nodejs](https://nodejs.org/) is needed. To start the application, type
 ```bash
-cd folder/to/server
-node server.js
+cd path/to/minecraft-scraper
+```
+```bash
+npm i
+```
+```bash
+npm start
+```
+or to start with [nodemon](https://www.npmjs.com/package/nodemon):
+```bash
+npm run dev
 ```
 
 After that the server is available under [localhost:8083](http://localhost:8083)

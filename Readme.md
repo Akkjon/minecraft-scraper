@@ -27,7 +27,7 @@ npm start
 ```
 or to start with [nodemon](https://www.npmjs.com/package/nodemon):
 ```bash
-npm start dev
+npm run dev
 ```
 
 After that the server is available under [localhost:8083](http://localhost:8083)
